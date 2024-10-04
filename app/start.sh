@@ -20,7 +20,7 @@ if [ $? -ne 0 ]; then
 fi
 
 mkdir ../backend/static
-cp * ../backend/static
+cp * -r ../backend/static
 
 echo ""
 echo "Restoring backend python packages"
