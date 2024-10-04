@@ -19,6 +19,9 @@ if [ $? -ne 0 ]; then
     exit $?
 fi
 
+mkdir ../backend/static
+cp * ../backend/static
+
 echo ""
 echo "Restoring backend python packages"
 echo ""
